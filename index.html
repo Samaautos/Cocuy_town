@@ -1,47 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Título -->
+  <title>El Cocuy - Historia y Encanto</title>
+  
+  <!-- Fuente elegante de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+  <!-- CSS base -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
-  <title>MUNICIPIO: DEVOPS USTA Tunja</title>
+  
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fafafa;
+    }
+    header {
+      background: linear-gradient(135deg, #2b6cb0, #63b3ed);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      border-radius: 0 0 12px 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 1rem;
+    }
+    figure {
+      text-align: center;
+      margin: 2rem auto;
+    }
+    figure img {
+      width: 60%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      display: block;
+      margin: 1.5rem auto;
+      border-radius: 12px;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    nav {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav li {
+      display: inline-block;
+      margin: 0.5rem 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #2b6cb0;
+    }
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #f0f0f0;
+      text-align: center;
+      border-radius: 12px 12px 0 0;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>MUNICIPIO</h1>
+    <h1>El Cocuy, Boyacá</h1>
+    <p>Historia, cultura y naturaleza en el corazón de la cordillera Oriental</p>
   </header>
 
   <main>
     <figure>
-      <img src="./assets/img/main.jpg">
-      <figcaption>Paisaje representativo de MUNICIPIO</figcaption>
+      <img src="./assets/img/main.jpg" alt="Paisaje de El Cocuy">
+      <figcaption>Paisaje representativo del Cocuy</figcaption>
     </figure>
 
     <section>
-      <h2>Intróducción</h2>
+      <h2>Introducción</h2>
       <p>
-        MUNICIPIO es uno de los tesoros de Boyacá, conocido por su rica historia, paisajes encantadores y tradiciones que perduran. En este sitio encontrarás una mirada detallada sobre su legado, sabores, atractivos turísticos y celebraciones únicas.
+        El Cocuy, Boyacá, es un pintoresco municipio enclavado en la majestuosa cordillera Oriental de los Andes colombianos. 
+        Reconocido por su arquitectura colonial, calles empedradas y paisajes imponentes, es la puerta de entrada al Parque Nacional Natural El Cocuy, hogar de majestuosos nevados, lagunas cristalinas y senderos de alta montaña.
+      </p>
+      <p>
+        Este destino combina historia, cultura y naturaleza en un solo lugar. Sus tradiciones artesanales, festividades, gastronomía típica y la calidez de su gente lo convierten en un espacio ideal tanto para la aventura como para la contemplación, ofreciendo experiencias únicas a viajeros nacionales e internacionales.
       </p>
     </section>
 
+    <iframe
+        src="https://www.youtube.com/embed/_xvyfsXAs48"
+        allowfullscreen></iframe>
+
+
     <nav>
-      <h3>Explora más sobre MUNICIPIO:</h3>
+      <h3>Explora más sobre el Cocuy:</h3>
       <ul>
         <li><a href="pages/history.html">Historia</a></li>
-        <li><a href="pages/gastronomy.html">Gastronomia</a></li>
+        <li><a href="pages/gastronomy.html">Gastronomía</a></li>
         <li><a href="pages/tourism.html">Turismo</a></li>
         <li><a href="pages/festivities.html">Festividades</a></li>
       </ul>
     </nav>
   </main>
+
   <footer>
     <h3>Desarrolladores</h3>
     <ul>
-      <li>Nombre 1</li>
-      <li>Nombre 2</li>
-      <li>Nombre 3</li>
-      <li>Nombre 4</li>
+      <li>Cesar Moreno</li>
+      <li>Oscar Arias</li>
     </ul>
   </footer>
+
 </body>
 </html>
+
+
+
